@@ -1,5 +1,4 @@
 const sub = document.querySelector("#minus");
-const num=document.querySelector("#number");
 const plus = document.querySelector("#add")
 
 sub.addEventListener("click", reduceNumber)
