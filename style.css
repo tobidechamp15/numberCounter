@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(116, 116, 245);
+    gap: 10px;
+}
+body:hover{
+    background-color: blue;
+    transition: 9.9s;
+}
+button {
+  background-color: #c1b4b4;
+  color: rgb(0, 107, 121);
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  font: 400;
+  font-size: 20px;
+}
+button:hover {
+  color: rgb(179, 239, 15);
+  font-weight: 700;
+  background-color: #035c33;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.9s;
+  font-size: 15px;
+  padding: 15px;
+}
+span{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+span:hover{
+    transition: 0.7s;
+    font-size: 50px;
+}
